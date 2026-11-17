@@ -714,14 +714,14 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteContinuousBar__PanelSpriteCo
 gdjs.evtsExt__PanelSpriteContinuousBar__PanelSpriteContinuousBar.PanelSpriteContinuousBar.prototype.doStepPostEventsContext.GDObjectObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(22693476);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(21127388);
 }
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Buffer"), gdjs.evtsExt__PanelSpriteContinuousBar__PanelSpriteContinuousBar.PanelSpriteContinuousBar.prototype.doStepPostEventsContext.GDBufferObjects1);
 /* Reuse gdjs.evtsExt__PanelSpriteContinuousBar__PanelSpriteContinuousBar.PanelSpriteContinuousBar.prototype.doStepPostEventsContext.GDObjectObjects1 */
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteContinuousBar__PanelSpriteContinuousBar.PanelSpriteContinuousBar.prototype.doStepPostEventsContext.GDBufferObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__PanelSpriteContinuousBar__PanelSpriteContinuousBar.PanelSpriteContinuousBar.prototype.doStepPostEventsContext.GDBufferObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Tween")).addObjectWidthTween2("ChangeValue", (( gdjs.evtsExt__PanelSpriteContinuousBar__PanelSpriteContinuousBar.PanelSpriteContinuousBar.prototype.doStepPostEventsContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteContinuousBar__PanelSpriteContinuousBar.PanelSpriteContinuousBar.prototype.doStepPostEventsContext.GDObjectObjects1[0].WidthForValue(eventsFunctionContext)), "linear", eventsFunctionContext.getObjects("Object")[0]._getEasingDuration(), false);
+    gdjs.evtsExt__PanelSpriteContinuousBar__PanelSpriteContinuousBar.PanelSpriteContinuousBar.prototype.doStepPostEventsContext.GDBufferObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Tween")).addObjectWidthTween2("ChangeValue", (( gdjs.evtsExt__PanelSpriteContinuousBar__PanelSpriteContinuousBar.PanelSpriteContinuousBar.prototype.doStepPostEventsContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteContinuousBar__PanelSpriteContinuousBar.PanelSpriteContinuousBar.prototype.doStepPostEventsContext.GDObjectObjects1[0].WidthForValue(eventsFunctionContext)), runtimeScene.getGame().getNamedEasingsManager().resolve("linear", "PanelSpriteContinuousBar"), eventsFunctionContext.getObjects("Object")[0]._getEasingDuration(), false);
 }
 }
 }
@@ -1242,7 +1242,7 @@ if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("FillBar"), gdjs.evtsExt__PanelSpriteContinuousBar__PanelSpriteContinuousBar.PanelSpriteContinuousBar.prototype.SetValueContext.GDFillBarObjects1);
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteContinuousBar__PanelSpriteContinuousBar.PanelSpriteContinuousBar.prototype.SetValueContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__PanelSpriteContinuousBar__PanelSpriteContinuousBar.PanelSpriteContinuousBar.prototype.SetValueContext.GDFillBarObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__PanelSpriteContinuousBar__PanelSpriteContinuousBar.PanelSpriteContinuousBar.prototype.SetValueContext.GDFillBarObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Tween")).addObjectWidthTween2("ChangeValue", (( gdjs.evtsExt__PanelSpriteContinuousBar__PanelSpriteContinuousBar.PanelSpriteContinuousBar.prototype.SetValueContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteContinuousBar__PanelSpriteContinuousBar.PanelSpriteContinuousBar.prototype.SetValueContext.GDObjectObjects1[0].WidthForValue(eventsFunctionContext)), "linear", eventsFunctionContext.getObjects("Object")[0]._getEasingDuration(), false);
+    gdjs.evtsExt__PanelSpriteContinuousBar__PanelSpriteContinuousBar.PanelSpriteContinuousBar.prototype.SetValueContext.GDFillBarObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Tween")).addObjectWidthTween2("ChangeValue", (( gdjs.evtsExt__PanelSpriteContinuousBar__PanelSpriteContinuousBar.PanelSpriteContinuousBar.prototype.SetValueContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__PanelSpriteContinuousBar__PanelSpriteContinuousBar.PanelSpriteContinuousBar.prototype.SetValueContext.GDObjectObjects1[0].WidthForValue(eventsFunctionContext)), runtimeScene.getGame().getNamedEasingsManager().resolve("linear", "PanelSpriteContinuousBar"), eventsFunctionContext.getObjects("Object")[0]._getEasingDuration(), false);
 }
 }
 }

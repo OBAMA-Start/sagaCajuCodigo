@@ -553,7 +553,7 @@ let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ButtonStates__ButtonScaleTween.ButtonScaleTween.prototype.FadeInContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__ButtonStates__ButtonScaleTween.ButtonScaleTween.prototype.FadeInContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__ButtonStates__ButtonScaleTween.ButtonScaleTween.prototype.FadeInContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Tween")).addObjectScaleTween("__ButtonScaleTween.Fade", eventsFunctionContext.getArgument("Value"), eventsFunctionContext.getArgument("Value"), eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getFadeInEasing(), 1000 * eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getFadeInDuration(), false, true);
+    gdjs.evtsExt__ButtonStates__ButtonScaleTween.ButtonScaleTween.prototype.FadeInContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Tween")).addObjectScaleTween("__ButtonScaleTween.Fade", eventsFunctionContext.getArgument("Value"), eventsFunctionContext.getArgument("Value"), runtimeScene.getGame().getNamedEasingsManager().resolve(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getFadeInEasing(), "ButtonStates"), 1000 * eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getFadeInDuration(), false, true);
 }
 }
 }
@@ -658,7 +658,7 @@ let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ButtonStates__ButtonScaleTween.ButtonScaleTween.prototype.FadeOutContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__ButtonStates__ButtonScaleTween.ButtonScaleTween.prototype.FadeOutContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__ButtonStates__ButtonScaleTween.ButtonScaleTween.prototype.FadeOutContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Tween")).addObjectScaleTween("__ButtonScaleTween.Fade", eventsFunctionContext.getArgument("Value"), eventsFunctionContext.getArgument("Value"), eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getFadeOutEasing(), 1000 * eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getFadeOutDuration(), false, true);
+    gdjs.evtsExt__ButtonStates__ButtonScaleTween.ButtonScaleTween.prototype.FadeOutContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Tween")).addObjectScaleTween("__ButtonScaleTween.Fade", eventsFunctionContext.getArgument("Value"), eventsFunctionContext.getArgument("Value"), runtimeScene.getGame().getNamedEasingsManager().resolve(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getFadeOutEasing(), "ButtonStates"), 1000 * eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getFadeOutDuration(), false, true);
 }
 }
 }

@@ -216,7 +216,7 @@ gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.doStepPostEve
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(22311796);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(20797556);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.doStepPostEventsContext.GDObjectObjects1);
