@@ -626,13 +626,13 @@ gdjs.fase3Code.eventsList5(runtimeScene);} //End of subevents
 
 
 };gdjs.fase3Code.mapOfGDgdjs_9546fase3Code_9546GDinicio_95959595botaoObjects1Objects = Hashtable.newFrom({"inicio_botao": gdjs.fase3Code.GDinicio_9595botaoObjects1});
-gdjs.fase3Code.asyncCallback22240996 = function (runtimeScene, asyncObjectsList) {
+gdjs.fase3Code.asyncCallback22236068 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.fase3Code.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Menu Inicial", false);
 }
 gdjs.fase3Code.localVariables.length = 0;
 }
-gdjs.fase3Code.idToCallbackMap.set(22240996, gdjs.fase3Code.asyncCallback22240996);
+gdjs.fase3Code.idToCallbackMap.set(22236068, gdjs.fase3Code.asyncCallback22236068);
 gdjs.fase3Code.eventsList7 = function(runtimeScene) {
 
 {
@@ -642,7 +642,7 @@ gdjs.fase3Code.eventsList7 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.fase3Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.fase3Code.asyncCallback22240996(runtimeScene, asyncObjectsList)), 22240996, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.fase3Code.asyncCallback22236068(runtimeScene, asyncObjectsList)), 22236068, asyncObjectsList);
 }
 }
 

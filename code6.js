@@ -117,13 +117,13 @@ gdjs.copyArray(runtimeScene.getObjects("fase_btn3"), gdjs.selecao_32de_32fases_4
 
 
 };gdjs.selecao_32de_32fases_45desafioCode.mapOfGDgdjs_9546selecao_959532de_959532fases_959545desafioCode_9546GDfase_95959595btn1Objects1Objects = Hashtable.newFrom({"fase_btn1": gdjs.selecao_32de_32fases_45desafioCode.GDfase_9595btn1Objects1});
-gdjs.selecao_32de_32fases_45desafioCode.asyncCallback22868132 = function (runtimeScene, asyncObjectsList) {
+gdjs.selecao_32de_32fases_45desafioCode.asyncCallback22863204 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.selecao_32de_32fases_45desafioCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "fase1", false);
 }
 gdjs.selecao_32de_32fases_45desafioCode.localVariables.length = 0;
 }
-gdjs.selecao_32de_32fases_45desafioCode.idToCallbackMap.set(22868132, gdjs.selecao_32de_32fases_45desafioCode.asyncCallback22868132);
+gdjs.selecao_32de_32fases_45desafioCode.idToCallbackMap.set(22863204, gdjs.selecao_32de_32fases_45desafioCode.asyncCallback22863204);
 gdjs.selecao_32de_32fases_45desafioCode.eventsList1 = function(runtimeScene) {
 
 {
@@ -133,7 +133,7 @@ gdjs.selecao_32de_32fases_45desafioCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.selecao_32de_32fases_45desafioCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.selecao_32de_32fases_45desafioCode.asyncCallback22868132(runtimeScene, asyncObjectsList)), 22868132, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.selecao_32de_32fases_45desafioCode.asyncCallback22863204(runtimeScene, asyncObjectsList)), 22863204, asyncObjectsList);
 }
 }
 
@@ -141,13 +141,13 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 
 
 };gdjs.selecao_32de_32fases_45desafioCode.mapOfGDgdjs_9546selecao_959532de_959532fases_959545desafioCode_9546GDfase_95959595btn2Objects1Objects = Hashtable.newFrom({"fase_btn2": gdjs.selecao_32de_32fases_45desafioCode.GDfase_9595btn2Objects1});
-gdjs.selecao_32de_32fases_45desafioCode.asyncCallback22871332 = function (runtimeScene, asyncObjectsList) {
+gdjs.selecao_32de_32fases_45desafioCode.asyncCallback22866404 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.selecao_32de_32fases_45desafioCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "fase2", false);
 }
 gdjs.selecao_32de_32fases_45desafioCode.localVariables.length = 0;
 }
-gdjs.selecao_32de_32fases_45desafioCode.idToCallbackMap.set(22871332, gdjs.selecao_32de_32fases_45desafioCode.asyncCallback22871332);
+gdjs.selecao_32de_32fases_45desafioCode.idToCallbackMap.set(22866404, gdjs.selecao_32de_32fases_45desafioCode.asyncCallback22866404);
 gdjs.selecao_32de_32fases_45desafioCode.eventsList2 = function(runtimeScene) {
 
 {
@@ -157,7 +157,7 @@ gdjs.selecao_32de_32fases_45desafioCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.selecao_32de_32fases_45desafioCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.selecao_32de_32fases_45desafioCode.asyncCallback22871332(runtimeScene, asyncObjectsList)), 22871332, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.selecao_32de_32fases_45desafioCode.asyncCallback22866404(runtimeScene, asyncObjectsList)), 22866404, asyncObjectsList);
 }
 }
 
@@ -278,13 +278,13 @@ gdjs.copyArray(runtimeScene.getObjects("UnlockDialog"), gdjs.selecao_32de_32fase
 }
 
 
-};gdjs.selecao_32de_32fases_45desafioCode.asyncCallback22878780 = function (runtimeScene, asyncObjectsList) {
+};gdjs.selecao_32de_32fases_45desafioCode.asyncCallback22873852 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.selecao_32de_32fases_45desafioCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "fase2", false);
 }
 gdjs.selecao_32de_32fases_45desafioCode.localVariables.length = 0;
 }
-gdjs.selecao_32de_32fases_45desafioCode.idToCallbackMap.set(22878780, gdjs.selecao_32de_32fases_45desafioCode.asyncCallback22878780);
+gdjs.selecao_32de_32fases_45desafioCode.idToCallbackMap.set(22873852, gdjs.selecao_32de_32fases_45desafioCode.asyncCallback22873852);
 gdjs.selecao_32de_32fases_45desafioCode.eventsList5 = function(runtimeScene) {
 
 {
@@ -294,7 +294,7 @@ gdjs.selecao_32de_32fases_45desafioCode.eventsList5 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.selecao_32de_32fases_45desafioCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.selecao_32de_32fases_45desafioCode.asyncCallback22878780(runtimeScene, asyncObjectsList)), 22878780, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.selecao_32de_32fases_45desafioCode.asyncCallback22873852(runtimeScene, asyncObjectsList)), 22873852, asyncObjectsList);
 }
 }
 

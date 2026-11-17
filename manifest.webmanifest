@@ -3,10 +3,13 @@
   "short_name": "Saga do Caju",
   "id": "com.example.gamename",
   "description": "Objeto de Aprendizagem desenvolvido pra ensinar pensamento algebrico pra crianças do múnicipio de Parnamirim.",
-  "orientation": "any",
+  "orientation": "landscape",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "black",
   "categories": ["games", "entertainment"],
-  "icons": []
+  "icons": [{
+        "src": "87a091fee104cd0e2f6cc8a9f33c8ec147de9c383062a241fa3eede5df52ad76-87a091fee104cd0e2f6cc8a9f33c8ec147de9c383062a241fa3eede5df52ad76-caju-vermelho.png",
+        "sizes": "512x512"
+      }]
 }
