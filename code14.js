@@ -103,11 +103,11 @@ gdjs.mini_45desafio3_461Code.mapOfGDgdjs_9546mini_959545desafio3_9595461Code_954
 gdjs.mini_45desafio3_461Code.eventsList2 = function(runtimeScene) {
 
 };gdjs.mini_45desafio3_461Code.mapOfGDgdjs_9546mini_959545desafio3_9595461Code_9546GDiniciarObjects1ObjectsGDgdjs_9546mini_959545desafio3_9595461Code_9546GDvoltarObjects1Objects = Hashtable.newFrom({"iniciar": gdjs.mini_45desafio3_461Code.GDiniciarObjects1, "voltar": gdjs.mini_45desafio3_461Code.GDvoltarObjects1});
-gdjs.mini_45desafio3_461Code.asyncCallback23570444 = function (runtimeScene, asyncObjectsList) {
+gdjs.mini_45desafio3_461Code.asyncCallback23716292 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.mini_45desafio3_461Code.localVariables);
 gdjs.mini_45desafio3_461Code.localVariables.length = 0;
 }
-gdjs.mini_45desafio3_461Code.idToCallbackMap.set(23570444, gdjs.mini_45desafio3_461Code.asyncCallback23570444);
+gdjs.mini_45desafio3_461Code.idToCallbackMap.set(23716292, gdjs.mini_45desafio3_461Code.asyncCallback23716292);
 gdjs.mini_45desafio3_461Code.eventsList3 = function(runtimeScene) {
 
 {
@@ -117,7 +117,7 @@ gdjs.mini_45desafio3_461Code.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.mini_45desafio3_461Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.mini_45desafio3_461Code.asyncCallback23570444(runtimeScene, asyncObjectsList)), 23570444, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.mini_45desafio3_461Code.asyncCallback23716292(runtimeScene, asyncObjectsList)), 23716292, asyncObjectsList);
 }
 }
 
